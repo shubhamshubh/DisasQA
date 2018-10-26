@@ -1,0 +1,10 @@
+<h1> <%= data[x].QUESTION %> </h1>
+
+<%if(data[x].ANSWER==' '){%>
+<form action="/addanswer/<%=x%>" method="GET">
+  <input type="text" name="answer">
+  <button>Submit</button>
+</form>
+<% } %>
+<h1> <%= data[x].USERNAME %> </h1>
+<h1> <%= data[x].ANSWER %> </h1>
