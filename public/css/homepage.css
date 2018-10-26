@@ -1,0 +1,68 @@
+body {
+	margin:0px;
+	border: 0px;
+	padding: 0%;
+	font-size: 200%;
+	background: url("temp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#nav {
+	width: 100%;
+	padding-top:1%;
+	padding-bottom: 1%;
+	background-color: orange;
+
+}
+#nav button {
+	float: right;
+	margin-right: 3%;
+	padding: 0.25%;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-top: 0.5%;
+	background: white;
+	border: 1px solid white;
+	color:orange;
+	border-radius: 5px;
+}
+.name {
+	height:10%;
+	width: 20%
+}
+.name {
+	padding-left: 1%;
+	color:white;
+}
+#back {
+	width: 100%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+	text-align: center;
+	
+}
+a:active {
+  color: orange;
+  text-decoration-color: white;
+
+}
+a:link {
+  color: orange;
+  text-decoration-color: white;
+
+}
+
+a:visited {
+  color: orange;
+  text-decoration-color: white;
+}
+
+a:focus {
+  background: white;
+  text-decoration-color: white;
+}
+
+a:hover { 
+  background: white;
+  text-decoration-color: white;
+}
